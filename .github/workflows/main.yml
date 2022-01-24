@@ -27,4 +27,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           npm install
-          npm build
+          parcel build index.html
